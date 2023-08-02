@@ -53,7 +53,7 @@ currentDate()
             <p class="font-bold text-3xl md:text-4xl">Current weather of <span class="md:font-light">your search</span></p>
        </div>
        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-3 md:gap-5 mt-10">
-            <div class="flex items-center justify-center md:w-1/3 overflow-hidden shadow-lg h-[200px] rounded-lg" style="background: url(../../src/assets/rain01.webp); background-position: center center; background-size: cover; background-repeat: no-repeat;">
+            <div class="flex items-center justify-center md:w-1/3 overflow-hidden shadow-lg h-[200px] rounded-lg" style="background: url(/rain01.webp); background-position: center center; background-size: cover; background-repeat: no-repeat;">
               <div>
                 <h2 class="font-bold text-3xl text-center">current weather</h2>
                 <p class="text-center">{{ todayDate }}</p>

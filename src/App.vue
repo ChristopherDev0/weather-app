@@ -39,14 +39,14 @@ const scrollToSection = () => {
     <section class="hidden md:block">
       <div class="md:max-w-6xl mx-auto mt-5 md:mt-16 lg:mt-[-280px]">
         <div class="flex flex-col lg:flex-row items-start justify-center lg:gap-16 overflow-hidden">
-          <div class="md:w-[600px] lg:w-[500px] mx-auto md:h-[500px]" style="background: url(../src/assets/weather-form01.png); background-position: center center; background-size: contain; background-repeat: no-repeat;">
+          <div class="md:w-[600px] lg:w-[500px] mx-auto md:h-[500px]" style="background: url(/weather-form01.png); background-position: center center; background-size: contain; background-repeat: no-repeat;">
             <div class="md:w-[500px] mx-auto md:min-h-[300px] md:mt-16 lg:mt-[85px]">
               <div class="md:mx-8 lg:mx-14"> 
                 <FormVue v-on:get-weather="getWeather"></FormVue><!-- v-on evento personalizado -->
               </div>
             </div>
           </div> 
-          <div class="md:w-[600px] lg:w-[500px] mx-auto md:h-[500px]" style="background: url(../src/assets/weather-form02.png); background-position: center center; background-size: contain; background-repeat: no-repeat;">
+          <div class="md:w-[600px] lg:w-[500px] mx-auto md:h-[500px]" style="background: url(/weather-form02.png); background-position: center center; background-size: contain; background-repeat: no-repeat;">
             <div class="md:w-[500px] mx-auto md:min-h-[300px] md:mt-16 lg:mt-[85px]">
               <div class="md:mx-8 lg:mx-14"> 
                 <CountryRespose v-bind:load="load" v-bind:nameObjectCountry="nameObjectCountry" v-bind:dataCountry="dataCountry"></CountryRespose>
