@@ -45,7 +45,7 @@ export default function useClima () {
              
 
              //consultar primera API pora obtener la lat y lon
-            const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city},${code}&limit=1&appid=${apiKey}`;
+            const url = `https://api.openweathermap.org/geo/1.0/direct?q=${city},${code}&limit=1&appid=${apiKey}`;
             const response = await fetch(url);
             const data = await response.json();
             const {lat, lon} = data[0];
