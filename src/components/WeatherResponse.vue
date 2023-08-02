@@ -56,7 +56,7 @@ currentDate()
             <div class="flex items-center justify-center md:w-1/3 overflow-hidden shadow-lg h-[200px] rounded-lg" style="background: url(/rain01.webp); background-position: center center; background-size: cover; background-repeat: no-repeat;">
               <div>
                 <h2 class="font-bold text-3xl text-center">current weather</h2>
-                <p class="text-center">{{ todayDate }}</p>
+                <p class="text-center mt-2">{{ todayDate }}</p>
               </div>
             </div>
             <div class="md:w-2/3 bg-gray-100 bg-opacity-10 p-5 rounded-md shadow-lg min-h-[200px]">
