@@ -56,7 +56,7 @@ const updateConsultData = (e) => {
         <form @submit.prevent="sendConsult">
             <div class="rounded-lg border border-gray-200 shadow-md px-2 pb-1 pt-[2px] w-full">
                 <label class="text-sm text-gray-400">Cuntry</label>
-                <select v-model="consultData.code" @change="updateConsultData" id="select" class="p-1 w-full border-none focus:outline-none">
+                <select v-model="consultData.code" @change="updateConsultData" id="select" class="p-1 w-full bg-white border-none focus:outline-none">
                     <option value=""></option>
                     <option v-for="country in countries" :key="country.id" :value="country.codigo">{{ country.nombre }}</option>
                 </select>
